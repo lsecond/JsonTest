@@ -1,0 +1,19 @@
+Test suites : hvac_mode
+test_eco_1725 runs 45.909 seconds
+test_eco_2621 runs 8.556 seconds
+test_eco_2622 runs 4.967 seconds
+test_eco_2623 runs 6.719 seconds
+test_eco_2625 runs 8.017 seconds
+test_eco_2626 runs 8.774 seconds
+test_eco_2633 runs 70.902 seconds
+test_eco_2645 runs 9.383 seconds
+test_eco_2782 runs 12.690 seconds
+Block test: 2
+Over 10 seconds test: 3
+
+Test suites : temp_setting
+test_eco_2913 runs 10.000 seconds
+test_eco_2915 runs 5.890 seconds
+Block test: 0
+Over 10 seconds test: 0
+

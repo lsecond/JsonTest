@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "OK",
+  "muser": [
+    {
+      "name": "zhangsan",
+      "age": "10",
+      "phone": "11111",
+      "email": "11111@11.com"
+    },
+    {
+      "name": "lisi",
+      "age": "20",
+      "phone": "22222",
+      "email": "22222@22.com"
+    }
+  ]
+}
