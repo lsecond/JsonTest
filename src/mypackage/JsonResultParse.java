@@ -1,5 +1,6 @@
 package mypackage;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -13,6 +14,7 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 
 import javax.print.attribute.standard.OutputDeviceAssigned;
+import javax.swing.table.TableStringConverter;
 
 import com.google.gson.JsonObject;
 import com.google.gson.stream.JsonReader;
@@ -101,6 +103,13 @@ public class JsonResultParse{
 	 */
 	public static void main(String [] args) throws IOException{
 		JsonResultParse jsonResultParse = new JsonResultParse();
+		String br;
+		BufferedReader reader = new BufferedReader(new FileReader("test_results.json"));
+		while((br = reader.readLine()) !=null){
+			System.out.println(br);
+		}
+		reader.readLine();
+		
 		BufferedWriter writer = new BufferedWriter( new FileWriter("output.txt"));
 		JsonReader jsonReader = new JsonReader(new FileReader("test_results.json"));
 	    jsonReader.beginObject();
